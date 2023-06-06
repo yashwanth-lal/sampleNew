@@ -9,7 +9,6 @@ const Clock = () => {
       setTime(new Date())
     }, 1000)
     return () => {
-      console.log('triggered')
       clearInterval(timerId)
     }
   })
